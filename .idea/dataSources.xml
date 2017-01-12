@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Oracle - @localhost" uuid="b5845e1b-fecb-43d5-8b1c-3d9d9aaaad01">
+    <data-source source="LOCAL" name="O-EAGLE" uuid="b5845e1b-fecb-43d5-8b1c-3d9d9aaaad01">
       <driver-ref>oracle</driver-ref>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>

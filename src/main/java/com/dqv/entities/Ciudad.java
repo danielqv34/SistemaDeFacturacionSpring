@@ -3,6 +3,7 @@ package com.dqv.entities;
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 /**
  * Created by ezequ on 10/19/2016.
@@ -12,7 +13,7 @@ public class Ciudad {
     private long id;
     private String nombreCiudad;
 
-    @Basic
+    @Id
     @Column(name = "ID", nullable = false, precision = 0)
     public long getId() {
         return id;

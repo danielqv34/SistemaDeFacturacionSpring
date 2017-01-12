@@ -1,7 +1,7 @@
 <component name="ArtifactManager">
   <artifact type="war" name="Sistema de Facturacion Web:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="facturaciondqv-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/out/artifacts/Sistema_de_Facturacion_Web_war</output-path>
+    <root id="archive" name="Sistema de Facturacion Web_war.war">
       <element id="artifact" artifact-name="Sistema de Facturacion Web:war exploded" />
     </root>
   </artifact>

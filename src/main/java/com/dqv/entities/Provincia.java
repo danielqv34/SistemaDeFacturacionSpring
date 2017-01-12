@@ -1,27 +1,28 @@
 package com.dqv.entities;
 
-import javax.persistence.Basic;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * Created by ezequ on 10/19/2016.
  */
 @Entity
-public class Provincia {
-    private long id;
+public class Provincia implements Serializable{
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private int id;
     private String nombreProvincia;
     private String capital;
     private String codigoProvincia;
 
-    @Basic
+    @Id
     @Column(name = "ID", nullable = false, precision = 0)
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -55,29 +56,5 @@ public class Provincia {
         this.codigoProvincia = codigoProvincia;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
 
-        Provincia provincia = (Provincia) o;
-
-        if (id != provincia.id) return false;
-        if (nombreProvincia != null ? !nombreProvincia.equals(provincia.nombreProvincia) : provincia.nombreProvincia != null)
-            return false;
-        if (capital != null ? !capital.equals(provincia.capital) : provincia.capital != null) return false;
-        if (codigoProvincia != null ? !codigoProvincia.equals(provincia.codigoProvincia) : provincia.codigoProvincia != null)
-            return false;
-
-        return true;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = (int) (id ^ (id >>> 32));
-        result = 31 * result + (nombreProvincia != null ? nombreProvincia.hashCode() : 0);
-        result = 31 * result + (capital != null ? capital.hashCode() : 0);
-        result = 31 * result + (codigoProvincia != null ? codigoProvincia.hashCode() : 0);
-        return result;
-    }
 }
