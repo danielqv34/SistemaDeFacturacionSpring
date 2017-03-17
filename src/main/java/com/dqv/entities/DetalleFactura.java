@@ -6,7 +6,7 @@ import javax.persistence.*;
  * Created by ezequ on 10/19/2016.
  */
 @Entity
-@Table(name = "DETALLE_FACTURA", schema = "C##DQUIROZ", catalog = "")
+@Table(name = "DETALLE_FACTURA")
 @IdClass(DetalleFacturaPK.class)
 public class DetalleFactura {
     private long id;

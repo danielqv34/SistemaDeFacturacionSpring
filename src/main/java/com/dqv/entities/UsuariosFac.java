@@ -6,7 +6,7 @@ import javax.persistence.*;
  * Created by ezequ on 10/19/2016.
  */
 @Entity
-@Table(name = "USUARIOS_FAC", schema = "C##DQUIROZ", catalog = "")
+@Table(name = "USUARIOS_FAC")
 public class UsuariosFac {
     private long id;
     private String nombres;

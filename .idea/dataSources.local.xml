@@ -8,8 +8,7 @@
       </database-info>
       <case-sensitivity plain-identifiers="upper" quoted-identifiers="exact" />
       <secret-storage>master_key</secret-storage>
-      <user-name>c##dquiroz</user-name>
-      <introspection-scope>*:C##DQUIROZ,PUBLIC,SYS,SYSTEM</introspection-scope>
+      <user-name>c##dquirozv</user-name>
       <resolve-scope>*:C##DQUIROZ,PUBLIC</resolve-scope>
     </data-source>
   </component>

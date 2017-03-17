@@ -1,77 +1,51 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html  xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>Login</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"/>-->
 
-    <link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'/>
-    <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'/>
+    <!--<link rel='stylesheet prefetch' href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900|RobotoDraft:400,100,300,500,700,900'/>-->
+    <!--<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css'/>-->
 
     <link rel="stylesheet" href="resources/bootstrap/css/style.css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="keywords" content="Sleek Login Form Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design"/>
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //Meta-Tags -->
+    <link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"/>
 
 
 </head>
 
 <body>
+<h1>Sistema de Facturacion</h1>
 
-<!-- Mixins-->
-<!-- Pen Title-->
-<div class="pen-title">
-    <h1>Inicio de Sesion</h1><span>SiSFACT <i class='fa fa-code'></i> by <a href='https://www.facebook.com/daniel.quirozvaldez'>DQV Developer</a></span>
+<h2>Inicia Sesion</h2>
+<div class="w3layoutscontaineragileits">
+    <form action="#" method="post">
+        <input type="text" Name="Userame" placeholder="EMAIL" required=""/>
+        <input type="password" Name="Password" placeholder="PASSWORD" required=""/>
+        <ul class="agileinfotickwthree">
+            <li>
+                <input type="checkbox" id="brand1" value=""/>
+                <label for="brand1"><span></span>Remember me</label>
+            </li>
+        </ul>
+        <div class="aitssendbuttonw3ls">
+            <input type="submit" value="LOGIN"/>
+            <p><a href="#">REGISTER NEW ACCOUNT <span>→</span></a></p>
+            <div class="clear"></div>
+        </div>
+    </form>
 </div>
-<div class="rerun">
-    <a href="inicio.html">Recargar Pagina</a></div>
-<div class="container">
-    <div class="card"></div>
-    <div class="card">
-        <h1 class="title">Inicia Sesion</h1>
-        <form>
-            <div class="input-container">
-                <input type="text" id="nombreUser" required="required"/>
-                <label for="nombreUser">Nombre de Usuario</label>
-                <div class="bar"></div>
-            </div>
-            <div class="input-container">
-                <input type="password" id="contrass" required="required"/>
-                <label for="contrass">Contraseña</label>
-                <div class="bar"></div>
-            </div>
-            <div class="button-container">
-                <button><span>Entrar</span></button>
-            </div>
-            <div class="footer"><a href="#">Olvide mi Contraseña?</a></div>
-        </form>
-    </div>
-    <div class="card alt">
-        <div class="toggle"></div>
-        <h1 class="title">Registrate
-            <div class="close"></div>
-        </h1>
-        <form>
-            <div class="input-container">
-                <input type="text" id="userNombre" required="required"/>
-                <label for="contrass">Nombre de Usuario</label>
-                <div class="bar"></div>
-            </div>
-            <div class="input-container">
-                <input type="password" id="contra" required="required"/>
-                <label for="contra">Contraseña</label>
-                <div class="bar"></div>
-            </div>
-            <div class="input-container">
-                <input type="password" id="rcontra" required="required"/>
-                <label for="rcontra">Repita la Contraseña</label>
-                <div class="bar"></div>
-            </div>
-            <div class="button-container">
-                <button><span>Crear</span></button>
-            </div>
-        </form>
-    </div>
+
+<div class="w3footeragile">
+    <p> &copy; 2017 Sleek Login Form. All Rights Reserved | Design by <a href="http://w3layouts.com" target="_blank">W3layouts</a></p>
 </div>
-<!-- Portfolio--><a id="portfolio" href="http://andytran.me/" title="View my portfolio!"><i class="fa fa-link"></i></a>
-<!-- CodePen--><a id="codepen" href="http://codepen.io/andytran/" title="Follow me!"><i class="fa fa-codepen"></i></a>
+
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 
